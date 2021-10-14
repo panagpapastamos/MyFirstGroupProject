@@ -1,0 +1,251 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.collapse navbar-collapse{
+    color: white;
+}
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+.nav-link{
+    color: white;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248,26,92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main{
+    
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.btn1{
+   height: 45px;
+   width: 35%;
+   border: none;
+   outline: none;
+   background-color: rgb(248,26,92);
+   color: #ffffff;
+   font-weight: 700;
+   border-radius: 60px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.container {
+    color: white;
+}
+
+.content-container {
+    margin-left: 50px;
+}
+
+.featured-content {
+    height: 50vh;
+    padding: 50px;
+    background-size:100% 100%;
+}
+
+.featured-title {
+    width: 150px;
+}
+
+.featured-desc {
+    width: 500px;
+    color: lightgray;
+    margin: 30px 0;
+}
+
+.featured-button {
+    background-color: #4dbf00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.movie-list-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-list {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-item {
+    margin-right: 30px;
+    position: relative;
+}
+
+.movie-list-item:hover .movie-list-item-img {
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+}
+
+.movie-list-item:hover .movie-list-item-title,
+.movie-list-item:hover .movie-list-item-desc,
+.movie-list-item:hover .movie-list-item-button,
+.movie-list-item:hover .movie-list-item-button-add {
+    opacity: 1;
+}
+
+.movie-list-item-img {
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.onemovie-details {
+    font-size: 200px;
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+}
+
+.movie-list-item-title {
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.movie-list-item-desc {
+    padding: 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    width: 230px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.movie-list-item-button,
+.movie-list-item-button-add {
+    padding: 10px;
+    background-color: #4dbf00;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.movie-list-item-button-add {
+    background-color: #6300bf;
+    left: 125px;
+}
+
+.arrow {
+    font-size: 120px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    color: lightgray;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.container.active {
+    background-color: white;
+}
+
+.movie-list-title.active {
+    color: black;
+}
+
+.summary{
+    width:70%;
+    height: 51%;
+}
+
+.summary2{
+    width:60%;
+    height:53%;
+}
+
+@media only screen and (max-width: 940px) {
+    .menu-container {
+        display: none;
+    }
+}
+
+.featured-Button {
+    background-color: #4dbf00;
+    color: white;
+    padding: 5px 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.navbar-brand-nav-link{
+font-size: 2rem;
+color:#151515;
+font-size: 30px;
+font-family: "Lobster", cursive;
+}
+
+
+
+.navbar-brand-nav-link :hover{
+color:#151515;
+}
+
+
+
+.topleft{
+position: absolute;
+top: 8px;
+left: 16px;
+font-size: 20px;
+background: -webkit-linear-gradient(#fafad2, #ff4500);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

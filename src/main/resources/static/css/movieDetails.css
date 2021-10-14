@@ -1,0 +1,105 @@
+
+.navbar-brand{
+    font-size: 2rem;
+    color:#151515;
+    font-family: "Lobster", cursive;
+}
+
+.navbar-brand :hover{
+    color:#151515; 
+}
+
+.nav-link{
+   margin-right: 10px;
+   margin-left: 10px;
+   color: black;
+   font-family: "Rubik", sans-serif;
+   text-transform: uppercase;  
+}
+
+.nav-link :hover {
+    color: white;
+}
+
+.container {
+    background-color: #151515;
+    color: white;
+}
+
+.content-container {
+    background-color: #151515;
+    margin-left: 50px;
+}
+
+.featured-content {
+    height: 50vh;
+    padding: 50px;
+
+    background-size:100% 100%;
+}
+
+.arrow {
+    font-size: 120px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    color: lightgray;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.container.active {
+    background-color: white;
+}
+
+.navbar-container.active {
+    background-color: white;
+
+    color: black;
+}
+
+.left-menu-icon.active {
+    color: black;
+}
+
+.title{
+    color: white;
+}
+
+.featured-button {
+    background-color: #4dbf00;
+    color: white;
+    padding: 5px 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.navbar-brand-nav-link{
+font-size: 2rem;
+color:#151515;
+font-size: 30px;
+font-family: "Lobster", cursive;
+}
+
+
+
+.navbar-brand-nav-link :hover{
+color:#151515;
+}
+
+
+
+.topleft{
+position: absolute;
+top: 8px;
+left: 16px;
+font-size: 20px;
+background: -webkit-linear-gradient(#fafad2, #ff4500);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
